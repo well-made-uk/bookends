@@ -186,13 +186,13 @@ margin: 0rem !important;
         <div class="flex">
           <div class="flex-vertical sticky">
             {{ range .Site.RegularPages }}
-              <a href="#{{ .Params.Title.Trim }}">{{ .Params.Title }}</a>
+              <a href="#{{ replace .Title ' ' '' }}">{{ .Params.Title }}</a>
             {{ end }}
           </div>
           <div class="flex-vertical gap-xhuge text-size-medium">
             {{ range .Site.RegularPages }}
-              <div class="flex-vertical gap-regular" id="{{ .Params.Title.Trim }}">
-                <h2 class="margin-bottom margin-small">{{ .Params.Title }}</h2>
+              <div class="flex-vertical gap-regular" id="{{ replace .Params.Title ' ' '' }}">
+                <h2 class="margin-bottom margin-small">{{ .Title }}</h2>
                 {{ .Content }}
               </div>
             {{ end }}
