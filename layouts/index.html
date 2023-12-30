@@ -193,7 +193,7 @@ margin: 0rem !important;
             {{ range .Site.RegularPages }}
               <div class="flex-vertical gap-regular" id="{{ .Params.Title.Trim }}">
                 <h2 class="margin-bottom margin-small">{{ .Params.Title }}</h2>
-                {{ Content }}
+                {{ .Content }}
               </div>
             {{ end }}
           </div>
