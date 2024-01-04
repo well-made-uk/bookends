@@ -1450,7 +1450,8 @@ figcaption {
   }
 
   .flex-vertical.sticky {
-    position:relative
+    position:relative;
+    top:0
   }
   
   .flex {
