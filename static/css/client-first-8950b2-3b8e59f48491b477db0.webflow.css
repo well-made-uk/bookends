@@ -1450,7 +1450,7 @@ figcaption {
   }
 
   .flex-vertical.sticky {
-    display: none;
+    position:relative;
   }
 }
 
