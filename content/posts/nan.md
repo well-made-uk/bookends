@@ -1,5 +1,6 @@
 ---
 title: Nan
+date: 2023-12-18
 ---
 
 It’s interesting to try to piece together the little parts or components leading up to a specific event. I remember that on the day my Nan fell over, we had been visiting my Uncle’s car dealership. I don’t remember why I was with my grandparents that day, though I remember that it was fairly cold, making it Spring or August. It was also light out, so it was either in the morning or the afternoon. My grandparents wouldn’t have taken me out for lunch - we would have stayed in and had that macaroni cheese from a tin. I wish I knew whether we’d already eaten, or we’d gone out before lunch.
